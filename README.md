@@ -6,7 +6,7 @@
 但是IOS一直都没有非常方便的弹幕库，我刚开始在自己的项目中用的是IOS点赞排名第一的unash/BarrageRenderer，作者非常牛逼，逻辑也非常独到，但是当具体用的时候，我个人认为我用起来不是很方便，而且有一定的BUG，参考了很多前人写得代码之后，我决定自己写一个弹幕库。
 
 ###先来看看效果
-![image](https://github.com/WangBingQuan1992/WBQSlideMusicPlayer/blob/master/effect.gif)
+![image](https://github.com/Wbqqqq/WbqDanMuKit/blob/master/Effect.gif)
 
 我仔细看了bilibili的弹幕，市面上很多的demo都不是自动布局，但是bilibili的视频横竖屏都很自然的显示，因此决定用autolayout，而放弃用frame写。
 
@@ -28,3 +28,17 @@
     
 }
 </code></pre>
+
+
+具体使用在demo注释还是蛮详细的。
+
+##联系方式
+
+我的邮箱：353351363@qq.com. 同样是我的QQ。 如果什么BUG、建议的话，在Issues向我提就好啦。 
+
+
+
+
+
+
+
