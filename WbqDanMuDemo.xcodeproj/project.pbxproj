@@ -18,6 +18,8 @@
 		764C58461E6593A300EC4BF3 /* NSTimer+WbqBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 764C58441E6593A300EC4BF3 /* NSTimer+WbqBlockSupport.m */; };
 		764C58491E6594CB00EC4BF3 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 764C58481E6594CB00EC4BF3 /* XMLDictionary.m */; };
 		764C584C1E65973E00EC4BF3 /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 764C584B1E65973E00EC4BF3 /* TestLabel.m */; };
+		7674463C1E762E6E006A017E /* ZFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 767446391E762E6E006A017E /* ZFNavigationController.m */; };
+		7674463D1E762E6E006A017E /* ZFScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7674463B1E762E6E006A017E /* ZFScreenShotView.m */; };
 		76AE19261E60972B006D6181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AE19251E60972B006D6181 /* main.m */; };
 		76AE19291E60972B006D6181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AE19281E60972B006D6181 /* AppDelegate.m */; };
 		76AE192F1E60972B006D6181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE192D1E60972B006D6181 /* Main.storyboard */; };
@@ -68,6 +70,10 @@
 		764C58481E6594CB00EC4BF3 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		764C584A1E65973E00EC4BF3 /* TestLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLabel.h; sourceTree = "<group>"; };
 		764C584B1E65973E00EC4BF3 /* TestLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLabel.m; sourceTree = "<group>"; };
+		767446381E762E6E006A017E /* ZFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNavigationController.h; sourceTree = "<group>"; };
+		767446391E762E6E006A017E /* ZFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFNavigationController.m; sourceTree = "<group>"; };
+		7674463A1E762E6E006A017E /* ZFScreenShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFScreenShotView.h; sourceTree = "<group>"; };
+		7674463B1E762E6E006A017E /* ZFScreenShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScreenShotView.m; sourceTree = "<group>"; };
 		76AE19211E60972B006D6181 /* WbqDanMuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WbqDanMuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AE19251E60972B006D6181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		76AE19271E60972B006D6181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +128,17 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		767446371E762E6E006A017E /* ZFNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				767446381E762E6E006A017E /* ZFNavigationController.h */,
+				767446391E762E6E006A017E /* ZFNavigationController.m */,
+				7674463A1E762E6E006A017E /* ZFScreenShotView.h */,
+				7674463B1E762E6E006A017E /* ZFScreenShotView.m */,
+			);
+			path = ZFNavigationController;
+			sourceTree = "<group>";
+		};
 		76AE19181E60972B006D6181 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +162,7 @@
 		76AE19231E60972B006D6181 /* WbqDanMuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				767446371E762E6E006A017E /* ZFNavigationController */,
 				76AE19571E609971006D6181 /* WbqDanMuKit */,
 				76AE19271E60972B006D6181 /* AppDelegate.h */,
 				76AE19281E60972B006D6181 /* AppDelegate.m */,
@@ -350,7 +368,9 @@
 				76AE19291E60972B006D6181 /* AppDelegate.m in Sources */,
 				764C58341E65640F00EC4BF3 /* YYFPSLabel.m in Sources */,
 				764C584C1E65973E00EC4BF3 /* TestLabel.m in Sources */,
+				7674463D1E762E6E006A017E /* ZFScreenShotView.m in Sources */,
 				761B66901E63274000DC1B90 /* TestModel.m in Sources */,
+				7674463C1E762E6E006A017E /* ZFNavigationController.m in Sources */,
 				764C58451E6593A300EC4BF3 /* CALayer+Aimate.m in Sources */,
 				764C58491E6594CB00EC4BF3 /* XMLDictionary.m in Sources */,
 				76AE19261E60972B006D6181 /* main.m in Sources */,

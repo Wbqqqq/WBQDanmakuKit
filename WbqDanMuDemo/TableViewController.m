@@ -7,6 +7,8 @@
 //
 
 #import "TableViewController.h"
+#import "ZFNavigationController.h"
+
 
 @interface TableViewController ()
 @property (nonatomic, strong) NSMutableArray *titles;
