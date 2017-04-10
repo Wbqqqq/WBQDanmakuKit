@@ -10,7 +10,7 @@
 #import "CALayer+Aimate.h"
 #import "NSTimer+WbqBlockSupport.h"
 
-#define NSLog(...) NSLog(__VA_ARGS__)
+
 
 @interface WbqDanmuView()
 {
@@ -54,7 +54,11 @@
 
 -(void)dealloc
 {
+    
+#if DEBUG
     NSLog(@"弹幕释放了哟");
+#endif
+    
     [self.timer invalidate];
     self.timer = nil;
 
@@ -198,8 +202,10 @@
     if ([danmuArr count] + self.currenDisplaytDanmuArr.count > self.DanmuMaxDisplayNumber) {
         
         index = [danmuArr count] - ( self.DanmuMaxDisplayNumber - self.currenDisplaytDanmuArr.count);
-        
+    #if DEBUG
         NSLog(@"太多啦爆炸了。。/(ㄒoㄒ)/~~");
+    #endif
+        
         
     }
     
